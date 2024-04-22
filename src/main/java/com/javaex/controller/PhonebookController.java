@@ -23,7 +23,7 @@ public class PhonebookController {
 	//리스트
 	@GetMapping(value = "/api/phonebooks")
 	public List<PersonVo> list() {
-		System.out.println("PhonebookController.list()");
+		System.out.println("PhonebokController.list()");
 		
 		List<PersonVo> pList = phonebookService.exeList();
 		
