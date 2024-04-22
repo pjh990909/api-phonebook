@@ -1,4 +1,4 @@
-name: Deploy GuestbookApp  #워크플로워 이름
+name: Deploy PhonebookApp  #워크플로워 이름
 
 on:
   workflow_dispatch:
